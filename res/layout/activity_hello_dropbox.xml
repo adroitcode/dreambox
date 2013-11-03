@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelloDropboxActivity" >
+
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dropboximg"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="30dp"
+    />
+
+    <Button
+        android:id="@+id/new_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="10dp"
+        android:text="New"
+        android:onClick="onClickNewDream"
+        android:visibility="gone"
+    />
+
+
+    <!--android:visibility="gone"-->
+
+
+
+    <ImageButton
+        android:id="@+id/link_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="@android:color/transparent"
+        android:src="@drawable/dropbox_button_normal"
+        android:text="@string/link_button"
+
+    />
+    
+</RelativeLayout>
